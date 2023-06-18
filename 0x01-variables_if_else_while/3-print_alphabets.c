@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-char c;
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 char d;
 while
 (c < -'z')
