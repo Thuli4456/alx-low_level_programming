@@ -7,18 +7,10 @@
 int main(void)
 {
 char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-char d;
-while
-(c < -'z')
+int i;
+for (i = 0; i < 52; i++) 
 {
-putchar(c);
-c++;
-}
-while
-(d < -'z')
-{
-putchar (d);
-d++;
+putchar (alp[i]);
 }
 putchar('\n');
 return (0);
