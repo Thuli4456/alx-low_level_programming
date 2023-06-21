@@ -2,6 +2,7 @@
 
 /**
  * times_table - prints the 9 imes table, starting with 0
+ * Return: empty output
  */
 void times_table(void)
 {
