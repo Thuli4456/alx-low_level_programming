@@ -16,14 +16,14 @@ if (j == 0)
 {
 _putchar(k + '0');
 }
-_putchar(',');
-_putchar(' ');
+_putchar(44);
+_putchar(32);
 _putchar(k + '0');
 }
 if (k >= 10)
 {
-_putchar(',');
-_putchar(' ');
+_putchar(44);
+_putchar(32);
 _putchar((k / 10) + '0');
 _putchar((k % 10) + '0');
 }
